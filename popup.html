@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LeetCode Sync Settings</title>
+  <style>
+    body { font-family: sans-serif; width: 300px; padding: 15px; }
+    label { display: block; margin-bottom: 5px; }
+    input[type="text"], input[type="password"] { width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; }
+    button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; width: 100%; }
+    button:hover { opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <h1>LeetCode GitHub Sync</h1>
+  <div>
+    <label for="leetcodeUsername">LeetCode Username:</label>
+    <input type="text" id="leetcodeUsername">
+  </div>
+  <div>
+    <label for="githubUsername">GitHub Username:</label>
+    <input type="text" id="githubUsername">
+  </div>
+  <div>
+    <label for="githubToken">GitHub Token:</label>
+    <input type="password" id="githubToken">
+  </div>
+  <div>
+    <label for="repoName">Repository Name:</label>
+    <input type="text" id="repoName" value="leetcode-submissions">
+  </div>
+  <button id="saveSettings">Save Settings</button>
+  <script src="popup.js"></script>
+</body>
+</html>
